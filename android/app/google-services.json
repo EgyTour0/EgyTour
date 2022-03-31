@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "290170339597",
+    "project_id": "graduation-2022",
+    "storage_bucket": "graduation-2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290170339597:android:fb5c22c7c316d5fcfef044",
+        "android_client_info": {
+          "package_name": "com.example.egytours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290170339597-bl26r32p51ik5ppp099fbeneb5nhp79b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.egytours",
+            "certificate_hash": "29f70ebdfaa2f1e52efaaca57c1513fdd91145dd"
+          }
+        },
+        {
+          "client_id": "290170339597-ruoqkjboi4hfat2dl8dqrve07kojutts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.egytours",
+            "certificate_hash": "9c72755862b86577a431411a758971973e5be000"
+          }
+        },
+        {
+          "client_id": "290170339597-r0mao1b50mi97tljqdvpu12gcq1muhi1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDODzkgc095-JPs99gtpgRZL5dotSjX9pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290170339597-r0mao1b50mi97tljqdvpu12gcq1muhi1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

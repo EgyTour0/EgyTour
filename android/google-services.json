@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "312656753693",
+    "project_id": "egytourapp",
+    "storage_bucket": "egytourapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312656753693:android:197cfd99973944c6c382f4",
+        "android_client_info": {
+          "package_name": "com.example.egytours"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312656753693-qnnl77a8hbmni9mehn2ob3ehumdo48v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhqbCfChII6SH6eGXyRLRBfv81RhGm0BQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312656753693-qnnl77a8hbmni9mehn2ob3ehumdo48v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
