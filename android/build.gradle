@@ -1,0 +1,56 @@
+buildscript {
+    ext.kotlin_version = '1.6.21'
+    repositories {
+        google()
+        mavenCentral()
+//        maven {
+//            url 'https://api.mapbox.com/downloads/v2/snapshots/maven'
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+//            credentials {
+//                username = "mapbox"
+//                password = "{secret Mapbox token with DOWNLOADS:READ scope, the same as the token used for the release repository}"
+//            }
+//        }
+//        maven {
+//            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+//            credentials {
+//                // Do not change the username below.
+//                // This should always be `mapbox` (not your username).
+//                username = 'mapbox'
+//                // Use the secret token you stored in gradle.properties as the password
+//                password = project.properties['MAPBOX_DOWNLOADS_TOKEN'] ?: ""
+//            }
+//        }
+    }
+
+    dependencies {
+//        implementation 'com.mapbox.maps:android:10.5.0'
+        classpath 'com.android.tools.build:gradle:7.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.10'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
